@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz5NW_sS9ag-pZMHv0Z3FHH2MBSUOrvlT3Wf0SgpxAYifbfy4SRSxrCkLj6kLLDZFUTiw/exec';
 
 async function login() {
   const username = document.getElementById("username").value;
