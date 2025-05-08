@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Admin</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h2>Data Nasabah</h2>
+  <form id="inputNasabahForm">
+    <input type="text" id="rekening" placeholder="No. Rekening" required />
+    <input type="text" id="nama" placeholder="Nama Lengkap" required />
+    <input type="text" id="kontak" placeholder="Telepon / Email" />
+    <input type="number" id="tabungan" placeholder="Saldo Tabungan" />
+    <input type="number" id="pinjaman" placeholder="Jumlah Pinjaman" />
+    <button type="submit">Tambah/Update Nasabah</button>
+  </form>
+
+  <table border="1" id="dataNasabahTable">
+    <thead>
+      <tr>
+        <th>Rekening</th><th>Nama</th><th>Kontak</th><th>Tabungan</th><th>Pinjaman</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="fetch-nasabah.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Nasabah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Dashboard Nasabah</h2>
+    <div id="infoNasabah" class="nasabah-info"></div>
+
+    <h3>Ganti Username / Password</h3>
+    <form id="gantiForm">
+      <input type="text" id="newUsername" placeholder="Username baru" required />
+      <input type="password" id="newPassword" placeholder="Password baru" required />
+      <button type="submit">Update</button>
+    </form>
+
+    <button onclick="logout()" class="logout-button">Logout</button>
+  </div>
+
+  <script src="fetch-nasabah.js"></script>
+</body>
+</html>
